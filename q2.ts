@@ -1,9 +1,10 @@
 function arrayStringify(a: number[]) {
-  let x: string = " ";
+  let x: string = '';
   for (let i = 0; i < a.length; i++) {
-    x += a[i];
+    x += a[i] + '';
   }
   return x;
+  
 }
 
 const c1 = [1, 2, 3];
