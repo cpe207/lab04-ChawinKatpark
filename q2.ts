@@ -1,5 +1,5 @@
 function arrayStringify(a: number[]) {
-  let x = ' ';
+  let x: string = " ";
   for (let i = 0; i < a.length; i++) {
     x += a[i];
   }
